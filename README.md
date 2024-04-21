@@ -1,81 +1,30 @@
-# Turborepo starter
+# Toggle Switch and Slider App
 
-This is an official starter Turborepo.
+## About
 
-## Using this example
+This application is built with **React.js, Javascript and Tailwind CSS**. Additionally, **Turborepo** has been used as a build system orchestrator and the entire application has been **Dockerized**.
 
-Run the following command:
+## Screenshots
 
-```sh
-npx create-turbo@latest
-```
+![](/public/1.png)
+![](/public/2.png)
+![](/public/3.png)
+![](/public/4.png)
 
-## What's inside?
+## Installation
 
-This Turborepo includes the following packages/apps:
+1. Clone the repository.
+2. Navigate to the project folder.
+3. Start Docker container `docker-compose up`
+4. Open your web browser and visit `http://localhost:5173/`
 
-### Apps and Packages
+## Live Site
 
-- `docs`: a [Next.js](https://nextjs.org/) app
-- `web`: another [Next.js](https://nextjs.org/) app
-- `@repo/ui`: a stub React component library shared by both `web` and `docs` applications
-- `@repo/eslint-config`: `eslint` configurations (includes `eslint-config-next` and `eslint-config-prettier`)
-- `@repo/typescript-config`: `tsconfig.json`s used throughout the monorepo
+Check out the live site here :
+https://djs-automate-slider.vercel.app/
 
-Each package/app is 100% [TypeScript](https://www.typescriptlang.org/).
+## Funcationality
 
-### Utilities
-
-This Turborepo has some additional tools already setup for you:
-
-- [TypeScript](https://www.typescriptlang.org/) for static type checking
-- [ESLint](https://eslint.org/) for code linting
-- [Prettier](https://prettier.io) for code formatting
-
-### Build
-
-To build all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm build
-```
-
-### Develop
-
-To develop all apps and packages, run the following command:
-
-```
-cd my-turborepo
-pnpm dev
-```
-
-### Remote Caching
-
-Turborepo can use a technique known as [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching) to share cache artifacts across machines, enabling you to share build caches with your team and CI/CD pipelines.
-
-By default, Turborepo will cache locally. To enable Remote Caching you will need an account with Vercel. If you don't have an account you can [create one](https://vercel.com/signup), then enter the following commands:
-
-```
-cd my-turborepo
-npx turbo login
-```
-
-This will authenticate the Turborepo CLI with your [Vercel account](https://vercel.com/docs/concepts/personal-accounts/overview).
-
-Next, you can link your Turborepo to your Remote Cache by running the following command from the root of your Turborepo:
-
-```
-npx turbo link
-```
-
-## Useful Links
-
-Learn more about the power of Turborepo:
-
-- [Tasks](https://turbo.build/repo/docs/core-concepts/monorepos/running-tasks)
-- [Caching](https://turbo.build/repo/docs/core-concepts/caching)
-- [Remote Caching](https://turbo.build/repo/docs/core-concepts/remote-caching)
-- [Filtering](https://turbo.build/repo/docs/core-concepts/monorepos/filtering)
-- [Configuration Options](https://turbo.build/repo/docs/reference/configuration)
-- [CLI Usage](https://turbo.build/repo/docs/reference/command-line-reference)
+- **On Button**: Blue brim turns on with a nice texture when clicked on. It also enables the funcationalty of the slider.
+- **Off Button**: Red brim turns on with a nice texture when clicked on. It also disables the funcationalty of the slider.
+- **Slider & Choose Color**: We can set any desired color with the help of choose color input box. And then with the help of slider, we can increase and decrease the intensity of BLUE inside it.
