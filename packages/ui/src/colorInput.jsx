@@ -3,7 +3,7 @@ import React from "react"
 const ColorInput = ({ type, setColor }) => {
   return (
     <input
-      className={`mx-2.5 w-10 rounded-lg shadow-none bg-black border outline-none text-center ${type === "red" ? "border-red-500" : type === "blue" ? "border-blue-500" : "border-green-500"}`}
+      className={`mx-2.5 w-10/12 h-12 rounded-lg shadow-none bg-black border outline-none text-center ${type === "red" ? "border-red-500" : type === "blue" ? "border-blue-500" : "border-green-500"}`}
       type="text"
       pattern="[0-9]*"
       maxLength={3}

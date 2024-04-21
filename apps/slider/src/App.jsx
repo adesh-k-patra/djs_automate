@@ -12,7 +12,7 @@ function App() {
   return (
     <div className="flex justify-center h-screen py-5 bg-background">
       <div
-        className="rounded-3xl grid grid-cols-2 w-full sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-5/12 h-full px-5 py-5 shadow-none shadow-black"
+        className="rounded-3xl grid grid-cols-2 w-full sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-5/12 h-full pl-5 py-5 shadow-none shadow-black"
         style={{ backgroundImage: `url(./1.png)` }}
       >
         <div className="rounded-l-3xl border-r-2 border-black grid grid-rows-2 py-20">
@@ -41,7 +41,7 @@ function App() {
               color={color}
             />
           </div>
-          <div className="row-span-2">
+          <div className="row-span-2 flex justify-center">
             <Card setColor={setColor} />
           </div>
         </div>
